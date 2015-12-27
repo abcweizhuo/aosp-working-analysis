@@ -26,8 +26,13 @@
 ##目录说明
     当前该repo下有三个文件夹，code里面是一些测使用的代码（R和perl的）；paper-reading-report下是论文阅读报告，明明规范是“paper”+“paper编号”+“paper名”.md；papers下是论文；report.md是进展状况；该文件即readme.md是总体的介绍文件。
 
-## 历史信息
+## 感兴趣的问题/历史信息
 下面的信息能否推测，分析，辨别真伪，解释原因？
 
  - android-2.2以前，曾经使用binder作为整个GUI架构中的进程间通信基础，后来因为某些原因不得不弃之而用Unix Domain Socket.
  - 早期android使用的虚拟机为 Dalvik。Google 在 Android 4.4 当中推出了一个实验性的新应用编译机制 ART--Android Runtime.
+ - 为什么 Google Android 不全面推进 NDK，反而用一个全新，但性能提升有限的 ART 来代替 Dalvik 虚拟机？
+ - Google是否/如何推进android桌面化的发展？
+ - android-x86在aosp上加了啥？分别是谁开发的？
+ - 如何分析openthos中各个项目的发展/活跃情况？
+ - 如何分析openthos中各个人的活跃情况？
