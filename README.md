@@ -30,4 +30,4 @@
 下面的信息能否推测，分析，辨别真伪，解释原因？
 
  - android-2.2以前，曾经使用binder作为整个GUI架构中的进程间通信基础，后来因为某些原因不得不弃之而用Unix Domain Socket.
- - 早期android使用的虚拟机为 Dalvik。Google 在 Android 4.4 当中推出了一个实验性的新应用编译机制，名为 ART（Android Runtime。
+ - 早期android使用的虚拟机为 Dalvik。Google 在 Android 4.4 当中推出了一个实验性的新应用编译机制 ART--Android Runtime.
