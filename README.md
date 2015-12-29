@@ -51,6 +51,7 @@
 下面的信息能否推测，分析，辨别真伪，解释原因？
 
  - android-2.2以前，曾经使用binder作为整个GUI架构中的进程间通信基础，后来因为某些原因不得不弃之而用Unix Domain Socket.
+ 		安卓目前好像仍然在使用binder，没有弃用（详细的信息我再查一下）
  - 早期android使用的虚拟机为 Dalvik。Google 在 Android 4.4 当中推出了一个实验性的新应用编译机制 ART--Android Runtime.
  - 为什么 Google Android 不全面推进 NDK，反而用一个全新，但性能提升有限的 ART 来代替 Dalvik 虚拟机？
  - Google是否/如何推进android桌面化的发展？
