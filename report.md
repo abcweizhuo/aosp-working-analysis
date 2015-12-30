@@ -9,3 +9,5 @@
 	论文2太长了。。英语太差读得慢，刚刚读完，论文总结放在了reading-report/paper2_mozilla.md	晚上把gitlog下了过来，做了一些初步的处理（中间有个perl脚本中有一句报错，已经解决不知道对不对，问题放在repo的issue里）：
     git-repo------>log.linux------>linux.l1
     使用linux.l1测试了一下R的样句，跑到画图那一步挂掉了。。提示格式有问题，检查了几遍目前还没有发发现。
+##12-30
+	完成了初版的开题报告PPT，./thesis_proposal.md
