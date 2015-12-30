@@ -58,3 +58,4 @@
  - android-x86在aosp上加了啥？分别是谁开发的？
  - 如何分析openthos中各个项目的发展/活跃情况？
  - 如何分析openthos中各个人的活跃情况？
+ - 20151230-Google证实，下一个版本的android全面采用OpenJDK，放弃Oracle的JavaJDK
