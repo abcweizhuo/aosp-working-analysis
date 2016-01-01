@@ -87,15 +87,30 @@
  - 四：扩展预测模型，抽象出与具体的OSS无关的预测框架，如果不能分析其局限性和限制因素
 
 # 成果
-基本成果：
+## 基本成果：
 
  - 实现分析android-x86/openthos/AOSP的开发过程的工具，可得到项目/人员/社区活跃度等统计和评价信息
  - 实现可从开发过程分析开发中的重要事件，并预测AOSP feature的增删的工具
  - 一篇研究性论文
 
-进阶成果：
+##进阶成果：
 
  - 基本适用于典型OSS的统计/分析/预测框架
+
+## 成果工具的效果评价
+
+可通过工具对如下问题/信息进行推测，分析，辨别真伪，解释原因
+
+ - android-2.2以前，曾经使用binder作为整个GUI架构中的进程间通信基础，后来因为某些原因不得不弃之而用Unix Domain Socket.
+ 		安卓目前好像仍然在使用binder，没有弃用（详细的信息我再查一下）
+ - 早期android使用的虚拟机为 Dalvik。Google 在 Android 4.4 当中推出了一个实验性的新应用编译机制 ART--Android Runtime.
+ - 为什么 Google Android 不全面推进 NDK，反而用一个全新，但性能提升有限的 ART 来代替 Dalvik 虚拟机？
+ - Google是否/如何推进android桌面化的发展？
+ - android-x86在aosp上加了啥？分别是谁开发的？
+ - 如何分析openthos中各个项目的发展/活跃情况？
+ - 如何分析openthos中各个人的活跃情况？
+ - 20151230-Google证实，下一个版本的android全面采用OpenJDK，放弃Oracle的JavaJDK, [具体源码信息](https://android.googlesource.com/platform/libcore.git/+/51b1b6997fd3f980076b8081f7f1165ccc2a4008)
+ 
 
 # 参考资料
 
