@@ -3,7 +3,10 @@
 % \today
 
 # 毕设题目
-基于开源项目元数据的分析与预测研究
+基于开源项目元数据的分析与预测研究 (这个题目有点too big, 几乎涵盖整个Mining Software Repositories领域)
+-option 1: 面向Android Open Source Project的贡献者活跃度度量和分析
+-option 2: 开源项目ASOP的特征预测
+-Option 3: 基于开发日志的ASOP开发实践的度量和预测
 
 # 研究目的
 
