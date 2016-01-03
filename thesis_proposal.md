@@ -1,12 +1,9 @@
 % 开题报告
-% 韩慧阳 @ 计算机系高性能所 | 导师：陈康
+% 韩慧阳 @ 计算机系高性能所 | 导师：陈渝
 % \today
 
 # 毕设题目
-基于开源项目元数据的分析与预测研究 (这个题目有点too big, 几乎涵盖整个Mining Software Repositories领域)
--option 1: 面向Android Open Source Project的贡献者活跃度度量和分析
--option 2: 开源项目ASOP的特征预测
--Option 3: 基于开发日志的ASOP开发实践的度量和预测
+基于开发日志的ASOP开发实践的度量和预测
 
 # 研究目的
 
@@ -15,7 +12,7 @@
  - 根据google内部人员开发的AOSP的gitlog日志文件预测新的安卓版本特性的改变, 人员与项目具体feature的关系，人员的活跃度等。
 
 # 研究现状
-目前相关的研究比较少，主要的研究方向集中在一下几个方向：
+目前相关的研究比较少，主要的研究方向集中在以下几个方向：
 
  - 开源软件（OSS）中非开发人员（缺陷检测、报告人员等）对整个软件开发的影响
  - OSS开发过程中maillist、BUGDB、gitlog等记录的开发过程的可信性
@@ -40,7 +37,7 @@
 ##主要观点
  - AOSP增减的特性可以从git开发日志中找到线索，且其最终是否会出现在下一个发布版本受PRs影响
  - OSS开发过程缺少面对面或者电话等传统交流方式，email和PRs中有大量的有效信息
- - 目前已有的数据挖掘算法已经支持我们从gitlog和maillist中获取我们需要的信息
+ - 目前已有的数据挖掘算法已经支持我们从gitlog和maillist中获取有价值的的信息
  - AOSP开发模式已经成熟，因此我们可以从其之前的开发历史中得到验证
  - AOSP开发过程中的gitlog可以得到
  - android-x86/openthos基于AOSP
@@ -49,6 +46,7 @@
 
  - 获取、清洗过滤、训练需要的数据
  - 根据AOSP/android-x86/openthos的开发历史建立数学模型
+ - 根据openthos（in github）开发人员的gitlog日志文件/email等信息，分析人员与项目具体feature的关系，人员的活跃度
  - 验证、修正建立的模型
  - 对未来的AOSP/android-x86/openthos做出有根据的预测和评价
  - 抽象出适用于一般的OSS的数学模型
