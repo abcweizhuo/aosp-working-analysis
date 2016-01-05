@@ -59,4 +59,5 @@
  - 如何分析openthos中各个项目的发展/活跃情况？
  - 如何分析openthos中各个人的活跃情况？
  - 20151230-Google证实，下一个版本的android全面采用OpenJDK，放弃Oracle的JavaJDK, [具体源码信息](https://android.googlesource.com/platform/libcore.git/+/51b1b6997fd3f980076b8081f7f1165ccc2a4008)
+ - 两名消息人士称，谷歌工程师花了两年时间合并这两套操作系统，并在最近取得了进展。公司计划于2017年发布一个单一的新系统。其中一名消息人士称，公司有望在明年展示该系统的早期版本。
  
